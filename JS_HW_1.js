@@ -131,7 +131,7 @@ if (age_1 < age_2)
 
 // let age = prompt('Add your age');
 
-// if (!isNaN(age)) {
+// if (!isNaN(age && typeof age == "number")) {
 
 //     if (age < age_2) {
 //      console.log("You don’t have access cause your age is " + age + " It’s less then 18");
