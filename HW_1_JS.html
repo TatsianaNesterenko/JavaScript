@@ -1,0 +1,36 @@
+<!DOCTYPE html>		<!-- Это файл HTML5 --> 
+<html>				<!-- Корневой элемент -->
+<head>				<!-- Заголовок, здесь располагаются сценарии и стили -->
+<meta charset="utf-8">
+<title>Your age</title>
+<script>			// Сценарий на JavaScript
+
+let age_2 = 18
+let age_3 = 60
+
+let age = prompt('Add your age');
+
+if (!isNaN(age) && typeof age == "number") {
+
+    if (age < age_2) {
+     alert("You don’t have access cause your age is " + age + " It’s less then 18");
+   } else if (age >= age_2 && age < age_3) {
+   alert("Welcome  !");
+   } else if (age > age_3) {
+       alert("Keep calm and look Culture channel");
+   } else {
+       alert("Technical work");
+   }
+} else {
+    alert('Mistake');
+}
+
+
+</script>
+
+</head>
+
+<body>				<!-- Тело - отображаемая часть документа -->
+
+</body>
+</html>
